@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Draft Notes",
+    "version": "1.0.0",
+    "description": "This is a sample description",
+    "short_name": "Short Sample Name",
+    "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"], 
+    "chrome_url_overrides" : {
+        "newtab": "newTab.html"
+    }
+   }

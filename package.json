@@ -1,0 +1,8 @@
+{
+  "name": "vue-extension-medium-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AnandShiva/vue-extension-medium-blog.git",
+  "author": "Anand Kumar <anandkumar.s@commerceiq.ai>",
+  "license": "MIT"
+}
