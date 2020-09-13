@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/AnandShiva/vue-extension-medium-blog.git",
   "author": "Anand Kumar <anandkumar.s@commerceiq.ai>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
