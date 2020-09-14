@@ -1,3 +1,8 @@
+import Vue from 'vue';
 
+const ExtensionContainer = require('./Index.vue').default;
 
-document.getElementById('extension_content').innerHTML = 'Dynamic  Content'
+window.vueInstance = new Vue({
+    el: `#vue_container`,
+    render: (h) => h(ExtensionContainer),
+});
